@@ -7,7 +7,7 @@
     <!-- title -->
     <title>Redblog</title>
     <!-- icon title -->
-    <link rel="shortcut icon" href="images/logo-img.png" type="image/x-icon">
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
 
     <!-- SEO -->
     
@@ -17,26 +17,36 @@
 
     <!-- connect CSS -->
     <link rel="stylesheet" href="styles/style.css">
-
-    <!-- connect google-fonts -->
-
-
 </head>
 <body>
     <!-- header -->
-    <header>
+    <header id="header">
         <!-- logo -->
         <div class="logo">
+            <img src="images/logo.png" alt="" class="logo-img">
             <p class="logo-text">Redblog</p>
         </div>
         <!-- header-nav -->
         <nav class="header-nav">
-            <button class="search-btn"><img class="search-img" src="images/search-img.png"></button>
-            <button class="menu-btn"><img class="menu-img" src="images/main-img.png" ></button>
+            <div class="nav-links">
+                <a class="nav-link-act">Главная</a>
+                <a href="" class="nav-link">Алгоритмы</a>
+                <a href="" class="nav-link">Языки</a>
+                <a href="" class="nav-link">Технологии</a>
+                <a href="" class="nav-link">Задачки</a>
+                <a href="" class="nav-link">Интересное</a>
+            </div>
+            <div class="nav-btn">
+                <button class="search-btn"><img class="search-img" src="images/search.png"></button>
+                <button class="menu-btn"><img class="menu-img" src="images/menu.png" ></button>
+            </div>
         </nav>
     </header>
-
+    
     <main>
+        <div class="banner">
+            <img src="images/banner.jpg" alt="" class="banner-img">
+        </div>
         <h1 class="title-text">Главный заголовок</h1>
         <section class="preview">
             <div class="direc">
